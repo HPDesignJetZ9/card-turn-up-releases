@@ -5,10 +5,17 @@ van de laptop herkent het antwoord aan de draairichting. Alles draait op je eige
 er gaan geen camerabeelden of leerlinggegevens het internet op.
 
 ## Installeren (Windows)
-1. Download **[CardTurnUp-Setup.exe](https://github.com/HPDesignJetZ9/card-turn-up-releases/releases/latest/download/CardTurnUp-Setup.exe)**.
-2. Dubbelklik het bestand. Waarschuwt Windows ("Windows heeft uw pc beveiligd")?
-   Klik op **Meer info** en daarna op **Toch uitvoeren**.
-3. Klaar: Card-Turn-Up staat in het Startmenu (en op het bureaublad) en opent in je browser.
+1. Klik op **Start**, typ `PowerShell` en open **Windows PowerShell**.
+2. Kopieer deze regel, plak hem in het blauwe venster (rechtermuisknop of Ctrl+V) en druk op Enter:
+   ```
+   irm https://raw.githubusercontent.com/HPDesignJetZ9/card-turn-up-releases/main/installeer.ps1 | iex
+   ```
+3. Volg het installatievenster dat verschijnt (Volgende → Installeren → Voltooien).
+4. Klaar: Card-Turn-Up staat in het Startmenu (en op het bureaublad) en opent in je browser.
+
+Mag je bestanden gewoon downloaden? Dan kan het ook met
+**[CardTurnUp-Setup.exe](https://github.com/HPDesignJetZ9/card-turn-up-releases/releases/latest/download/CardTurnUp-Setup.exe)**
+(waarschuwt Windows: **Meer info** → **Toch uitvoeren**).
 
 Beheerdersrechten zijn niet nodig. Nieuwe versies installeer je later met één klik op de
 knop **Update** bovenin het programma.
